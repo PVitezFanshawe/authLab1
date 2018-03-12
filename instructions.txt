@@ -1,0 +1,31 @@
+# The NEH lab! (Node, Express, Handlebars)
+
+DO NOT USE CLASS FILES FOR THIS PART -> USE DOCUMENTATION ON GITHUB
+
+1. Use the Express Generator to create a new project in your Documents directory. FOLLOW THE DIRECTIONS IN THE TERMINAL WINDOW
+
+2. Initialize a local repo using the Terminal / Git => create a .gitignore and add node_modules as well as .DS_Store.
+
+3. add the new build - before you make any changes - and commit it (this will create a  master branch)
+
+4. Create a new branch called yourinitials.dev.NEH -> this is where you'll make the view engine changes
+
+5. Change the view / view engine setup in Express (app.js) to use Handlebars; create the views and structure that you need to make Handlebars work => YOU CAN USE THE EXPRESS-HANDLEBARS GITHUB DOCUMENTATION FOR THIS
+
+STOP -> show me where you're at so that I can check it before you move on to the next part -> you should have a page loading with a data sent via your route and rendered on the page with Handlebars
+
+YOU CAN USE CLASS FILES FOR THIS PART (6 to End)
+
+6. Collect the database, the home page view, the video page view, the images, video and CSS from the Github Gists / FOL archives provided. Put them where they need to go in your project
+
+7. Render the home view when you hit the main route; pass in the necessary data. You will need to do a SQL query on the main route to retrieve and render the content => set up your config and sqlConnect file(s) as required
+
+8. Render the video view when you hit the video route (add that route in index.js) via a click from the main page (click on the video thumbnail to navigate to that page, passing in an ID via req.params so that you can do a query on the database)
+
+9. Render the video and its associated information on the video page
+
+10. Add and commit your changes to your local repo. DON'T PUSH TO GITHUB.
+
+11. Upload a zipped copy of it to the FOL dropbox. DON'T INCLUDE THE VIDEOS - I already have them
+
+12. Take a deep breath and pat yourself on the back. You did it!
